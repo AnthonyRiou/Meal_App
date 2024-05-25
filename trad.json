@@ -1,0 +1,11 @@
+{
+   "ingredients" : 
+   [ 
+    {"boeuf" : "beef"},
+    {"poulet" : "chicken"},
+    {"pate" : "pasta"},
+    {"salade" : "salad"},
+    {"riz" : "rice"}, 
+    {"oeuf" : "egg"}
+    ]
+}

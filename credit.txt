@@ -1,0 +1,7 @@
+Liste des différents liens et images itilisées : 
+
+Favicon :          
+<p><a target="_blank" href="https://icons8.com/icon/erEevcUCwAMR/hamburger">Hamburger</a> icône par <a target="_blank" href="https://icons8.com">Icons8</a></p>
+
+Image principale (pizza.jpg) : 
+https://www.galbani.fr/recettes/pizza/pizza-poivrons-et-chorizo

@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  display : flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url(./public/img/pizza.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.app {
+  display : flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  margin-top : 4%;
+}
+
+.title {
+  max-width: 400px;
+  background: white;
+  padding: 6px 20px;
+  border-radius: 16px 16px 16px 16px;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.054);
+}
+
+form {
+  position: sticky;
+  top : 2%;
+  /* left: 30%; */
+  max-width: 320px;
+  margin-top :2%;
+  /* transform: translateX(-50%); */
+  background: white;
+  padding: 6px 20px;
+  border-radius: 16px 16px 16px 16px;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.054);
+}
+input {
+  border: 1px solid rgb(235, 244, 242);
+  background: rgb(235, 244, 242);
+  color: hsl(351, 61%, 47%);
+  outline: none;
+  border-radius: 5px;
+  height: 30px;
+  margin: 10px 0 5px;
+  width: 260px;
+  font-size: 1.2rem;
+  transition: 0.2s;
+}
+input:focus {
+  border: 1px solid hsl(351, 61%, 47%);
+}
+
+#button {
+  width: 150px;
+  color :hsl(351, 61%, 47%)
+}
+
+#button:hover {
+  border : 0.5px solid white;
+  background-color: hsl(351, 61%, 47%);
+  color : white
+}
+
+#result {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top : 20%
+}
+#result > li {
+  flex: 1 0 25%;
+  min-width: 280px;
+  /* border: 1px solid #16d9e7; */
+  background: white;
+  margin: 10px;
+  border-radius: 5px;
+  padding: 10px 20px;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.084);
+}
+h2 {
+  margin: 6px auto;
+  color : black;
+  width: 240px;
+  background-color: white;
+  border-radius: 12px 12px 12px 12px;
+  transition : 2s
+}
+p {
+  color: #36ca79;
+}
+img {
+  width: 100%;
+  margin: 10px 0;
+  border-radius: 15px;
+  object-fit: cover;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.304);
+}
+li > ul > li {
+  text-align: left;
+}
+
+#credits {
+  color : white;
+  display: flex;
+  align-items: flex-end;
+  margin-top: 850%;
+}
+
+
+@media screen and (min-width:767.98px) {
+  form {
+    margin-top :5%
+  }
+  #result {
+    padding-top : 5%
+  }
+}
+
+
+@media screen and (min-width:1023.98px) and (orientation : landscape) {
+  form {
+    margin-top : 5%
+  }
+  #result {
+    padding-top : 5%
+  }
+}
