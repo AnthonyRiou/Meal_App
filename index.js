@@ -131,8 +131,8 @@ button.addEventListener("click", (e) => {
   tradIngredient();
   fetchMeals(input.value);
   mealsDisplay();
-  
-  },form.input.value = ""
+  form.input.value = ""
+}
 );
   
  
